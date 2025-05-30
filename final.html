@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="registrationForm" onsumbit="registerUser(event)">
+        <label for="Name">what is your name?</label>
+        <input type="text" name="Name" id="Name" required>
+        </br>
+        <label for="email">Enter your email</label>
+        <input type="email" name="email" id="email" required>
+        </br>
+        <label for="age">what is year or your birthday</label>
+        <input type="number" name="age" id="age" required>
+        </br>
+        <button type="sumbit">Register</button>
+    </form>
+
+    <p id="validationmessage"></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>
